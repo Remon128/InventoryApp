@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here ,
+        Get started by adding a Product and press on Plus Button below!</string>
+
+    <string name="deletion_changes_dialog_msg">Do you want to delete this product permanently?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+</resources>

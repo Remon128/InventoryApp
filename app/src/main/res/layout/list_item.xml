@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="420dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="320dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:id="@+id/list_item_pPicture"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:srcCompat="@android:drawable/ic_menu_crop" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Product Name"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView_pName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Product Quantity"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView_pQuant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Product Price"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView_pPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_sale"
+                android:layout_width="330dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:text="Sale" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
